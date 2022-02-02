@@ -1,0 +1,135 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap");
+
+/* body{background-color:rgba 245, 245, 245.0.65; */
+
+/* } */
+
+.container {
+  width: 950px;
+  height: auto;
+  background: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#headerbox {
+  width: 100%;
+  height: 100px;
+  background: antiquewhite;
+}
+
+#logobox {
+  float: left;
+  width: 200px;
+  height: 100px;
+  background: antiquewhite;
+}
+
+.weblogo {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+#navbox {
+  float: right;
+  width: 700px;
+  height: 100px;
+  background: antiquewhite;
+}
+
+#navbox ul {
+  list-style: none;
+  margin-left: 140px;
+}
+
+#navbox li a {
+  float: left;
+  margin-left: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: darkcyan;
+  margin-top: 30px;
+}
+
+#navbox li a:hover {
+  color: black;
+}
+
+#banner {
+  width: 100%;
+  height: auto;
+}
+
+.bannerimg {
+  width: 100%;
+}
+
+#contentbox {
+  width: 100%;
+  height: 600px;
+  background-color: whitesmoke;
+}
+
+#leftbox {
+  width: 600px;
+  height: 600px;
+  background-color: beige;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+}
+
+#leftbox h2 {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#leftbox p {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+#rightbox {
+  width: 350px;
+  height: 600px;
+  background-color: antiquewhite;
+  float: right;
+  text-align: center;
+  font-size: 20px;
+}
+
+#rightbox h2 {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+* {
+  color: darkcyan;
+}
+
+#rightbox ul {
+  list-style: none;
+}
+
+#rightbox li a {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkgrey;
+  padding-top: 10px;
+}
+
+#footer p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
